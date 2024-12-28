@@ -1,0 +1,1 @@
+function foo(int $a, int $b): int { if (is_int($a) && is_int($b)) { return $a + $b; } else { return 0; // Or throw an exception } }
